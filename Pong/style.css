@@ -1,0 +1,102 @@
+body{background-color: #50fc3d;}
+
+.Campo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 1280px;
+    height: 720px;
+    background-color: green;
+} 
+
+.Faixa1, .Faixa2, .Faixa3, .Faixa4, .Faixa5{
+    position: absolute;
+    width: 150px ;
+    height: 100%;
+    background-color: #82f551;
+}
+.Faixa1{left: 0px;}
+.Faixa2{ left: 300px;}
+.Faixa3{ left: 300px;}
+.Faixa4{right: 300px;}
+.Faixa5{right: 0px;}
+
+.Marcacao1{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 20PX ;
+    height: 100%;
+    background-color: white;
+} 
+
+.Circulo1{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 300PX ;
+    height:  300px;
+    background-color: white;
+    border-radius: 50%;
+}
+.Circulo2{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 260PX ;
+    height:  260px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.RetanguloEsq1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 200PX ;
+    height:  300px;
+    background-color: white;
+}
+.RetanguloEsq2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 180PX ;
+    height:  260px;
+    background-color: #82f551;
+}
+.RetanguloDir1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 200PX ;
+    height:  300px;
+    background-color: white;
+}
+.RetanguloDir2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 180PX ;
+    height:  260px;
+    background-color: #82f551;
+}
+

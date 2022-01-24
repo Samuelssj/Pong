@@ -26,10 +26,11 @@ body{background-color: #50fc3d;}
 
 .Marcacao1{
     position: absolute;
-    right: 0;
-    left: 0;
+    right:0;
+    top: 0;
+    left:0;
     margin: auto;
-    width: 20PX ;
+    width: 20PX;
     height: 100%;
     background-color: white;
 } 
@@ -100,3 +101,37 @@ body{background-color: #50fc3d;}
     background-color: #82f551;
 }
 
+.Bola{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30PX ;
+    height: 30px;
+    background-color: whitesmoke;
+    border-radius: 50%; 
+}
+
+.Jogador1{
+    position: absolute;
+    left: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 20PX ;
+    height: 150px;
+    background-color: white;
+} 
+
+.Jogador2{
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 20PX ;
+    height: 150px;
+    background-color: white;
+}
